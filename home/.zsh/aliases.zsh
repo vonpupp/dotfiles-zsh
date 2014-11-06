@@ -31,6 +31,7 @@ alias diff='colordiff'
 alias za='zathura'
 alias v='vim --servername vim'
 alias view='vim -R -'
+alias cpsshkey='xclip -sel clip < ~/.ssh/id_rsa.pub'
 
 # fasd aliases
 alias ee='fasd -ae e'

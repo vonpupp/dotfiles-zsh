@@ -3,7 +3,7 @@
 # FASD
 git clone https://github.com/clvv/fasd.git
 cd fasd
-sudo make install
+PREFIX=$HOME make install
 cd ..
 rm -rf fasd
 
