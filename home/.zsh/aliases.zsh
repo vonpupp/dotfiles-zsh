@@ -5,25 +5,10 @@ function top10 () {history | awk '{print $2}'|awk 'BEGIN {FS="|"} {print $1}' | 
 #unalias f
 function f() {find ./ -iname "*$1*" 2>/dev/null | grep -i $1}
 
-#add script to .oh-my-zsh/lib/functions.zsh
-function rm () {
-    local path
-    for path in "$@"; do
-        # ignore any arguments
-        if [[ "$path" = -* ]]; then :
-        else
-            local dst=${path##*/}
-            # append the time if necessary
-            while [ -e ~/.Trash/"$dst" ]; do
-                dst="$dst "$(date +%H-%M-%S)
-            done
-            /bin/mv "$path" ~/.Trash/"$dst"
-        fi
-    done
-}
 
 # Aliases
 
+alias rm='trash'
 alias ll='ls -lah'
 alias l='ls -lh'
 alias lltime='ll -tr'
