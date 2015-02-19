@@ -1,4 +1,4 @@
-[ ! -s ~/.mpd/pid ] && mpd ~/.mpd/.mpd.conf
+[ ! -s ~/.config/mpd/pid ] && mpd ~/.config/mpd/mpd.conf
 
 # Fixing caret at the end of line instead of the begining (stupid Debian policy)
 unsetopt global_rcs
