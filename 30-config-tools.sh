@@ -16,3 +16,9 @@ git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shel
 
 # CREATE_AP
 git clone https://github.com/oblique/create_ap.git ./bin/create_ap
+
+# GITFLOW
+wget -c https://raw.github.com/nvie/gitflow/develop/contrib/gitflow-installer.sh
+chmod +x gitflow-installer.sh
+INSTALL_PREFIX=~/bin ./gitflow-installer.sh
+rm gitflow-installer.sh
