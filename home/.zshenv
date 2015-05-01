@@ -4,6 +4,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export M2_HOME=/usr
 export M2=$M2_HOME/bin
 export RUBY_HOME=~/.gem/ruby/2.1.0/bin
+export R_LIBS="$HOME/Rlibs"
 #export PATH=~/bin/sumo:/usr/share/perl5/vendor_perl/auto/share/dist/Cope:~/bin:$PATH:$M2:~/.cabal/bin
 #export PATH="/usr/lib64/mpi/gcc/openmpi/bin:/home/afu/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/X11:/usr/X11R6/bin:/usr/games"
 PATH="$HOME/bin:$PATH"
