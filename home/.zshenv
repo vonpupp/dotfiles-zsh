@@ -30,10 +30,11 @@ export LD_LIBRARY_PATH="~/.linuxbrew/lib:$LD_LIBRARY_PATH"
 #PATH=$HOME/.gem/ruby/2.1.0/bin:$PATH
 #PATH=$HOME/.cabal/bin:$PATH
 
-export WORKON_HOME=$HOME/.virtualenvs
+#export WORKON_HOME=$HOME/.virtualenvs
+#VIRTUALENVWRAPPER_PYTHON=/home/afu/.venv/bin2/bin/python
+#VIRTUALENV_DIR=`which virtualenvwrapper.sh`
+#source $VIRTUALENV_DIR
 export PROJECT_HOME=$HOME/repos
-VIRTUALENV_DIR=`which virtualenvwrapper.sh`
-source $VIRTUALENV_DIR
 
 # Fixes java/xmonad issue with JOSM
 #export _JAVA_AWT_WM_NONREPARENTING=1
