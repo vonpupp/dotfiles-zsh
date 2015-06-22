@@ -10,7 +10,6 @@ PATH="/usr/bin/X11:$PATH"
 PATH="/usr/X11R6/bin:$PATH"
 PATH="/usr/games:$PATH"
 PATH="/usr/bin/pkg-config:$PATH"
-PATH="/bin:$PATH"
 
 # Haskell
 #PATH=$HOME/.cabal/bin:$PATH
@@ -35,10 +34,15 @@ PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
 # Python
 # This might raise some issues using python2 and python3
 # Needs better testing on arch
+export VENV_BIN2=~/.venv/bin2/bin
+PATH="$VENV_BIN2:$PATH"
+PATH="$VENV_BIN3:$PATH"
+export VENV_BIN3=~/.venv/bin3/bin
 export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/repos
-VIRTUALENV_DIR=`which virtualenvwrapper.sh`
-source $VIRTUALENV_DIR
+#export WORKON_HOME=$HOME/.virtualenvs
+#VIRTUALENVWRAPPER_PYTHON=/home/afu/.venv/bin2/bin/python
+#VIRTUALENV_DIR=`which virtualenvwrapper.sh`
+#source $VIRTUALENV_DIR
 
 # Anaconda
 #PATH="$HOME/anaconda/bin:$PATH"
@@ -59,5 +63,6 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export PATH=$PATH
 
 # User aliases
+export PROJECTS=$HOME/projects
 export USP=~/Dropbox/mnt-usp/
 export dissertation=~/Dropbox/MAC5910-Albert/dissertation
