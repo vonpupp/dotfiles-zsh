@@ -1,4 +1,5 @@
 #!/bin/bash
+# Source: https://joshldavis.com/2014/04/12/beginners-tutorial-for-knitr/
 
 FILE="${1}"
 
