@@ -53,7 +53,7 @@ export R_LIBS="$HOME/Rlibs"
 PATH="$R_LIBS:$PATH"
 
 # Ruby
-export RUBY_HOME=~/.gem/ruby/2.1.0/bin
+export RUBY_HOME="`ruby -e 'print Gem.user_dir'`/bin"
 PATH="$RUBY_HOME:$PATH"
 
 # XDG
