@@ -1,4 +1,5 @@
 export EDITOR="vim"
+export TERMINAL="urxvt"
 export USE_EDITOR=$EDITOR
 export VISUAL=$EDITOR
 export BROWSER="firefox"
