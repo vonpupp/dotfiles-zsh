@@ -47,5 +47,5 @@ alias ff='find |grep'
 # alias c="clear"
 alias impersonatewm='wmname LG3D'
 alias t='task'
-alias thomework='t status:pending and \(project:metodologia or project:avaliacao\) list'
 alias latexmkcompile="grep -l '\\documentclass' *tex | xargs latexmk -pdf -pvc -silent"
+alias shomeshick='source ~/.homesick/repos/homeshick/homeshick.sh'
