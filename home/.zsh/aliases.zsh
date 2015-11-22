@@ -42,6 +42,9 @@ alias ef='fasd -fe e'
 alias vd='fasd -de vim'
 alias vf='fasd -fe vim'
 
+# Homeshick
+alias homeshickload='source ~/.homesick/repos/homeshick/homeshick.sh'
+
 # Other aliases
 alias ff='find |grep'
 # alias c="clear"
