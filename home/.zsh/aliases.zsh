@@ -45,6 +45,9 @@ alias vf='fasd -fe vim'
 # Homeshick
 alias homeshickload='source ~/.homesick/repos/homeshick/homeshick.sh'
 
+# Ping
+alias pt='ping google.com'
+
 # Other aliases
 alias ff='find |grep'
 # alias c="clear"
