@@ -39,7 +39,7 @@ DISABLE_AUTO_UPDATE="true"
 # much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-# Uncomment following line if you want to  shown in the command execution time stamp 
+# Uncomment following line if you want to  shown in the command execution time stamp
 # in the history command output. The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|
 # yyyy-mm-dd
 # HIST_STAMPS="mm/dd/yyyy"
@@ -58,11 +58,16 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.zshenv
 source ~/.zsh/aliases.zsh
+source ~/.zsh/aliases-os.zsh
 source ~/.zsh/accessibility.zsh
 source ~/.zsh/colors.zsh
 source ~/.zsh/keybindings.zsh
 source ~/.zsh/options.zsh
 source ~/.zsh/variables.zsh
+source ~/.zsh/autorun.zsh
 
 #source $HOME/.zsh-fuzzy-match/fuzzy-match.zsh
 source ~/.fzf.zsh
+
+# added by travis gem
+[ -f /home/av/.travis/travis.sh ] && source /home/av/.travis/travis.sh
