@@ -42,8 +42,9 @@ alias ef='fasd -fe e'
 alias vd='fasd -de vim'
 alias vf='fasd -fe vim'
 
-# Homeshick
+# Load/reload
 alias homeshickload='source ~/.homesick/repos/homeshick/homeshick.sh'
+alias xresourcesload="xrdb ~/.Xresources"
 
 # Ping
 alias pt='ping google.com'
@@ -54,4 +55,3 @@ alias ff='find |grep'
 alias impersonatewm='wmname LG3D'
 alias t='task'
 alias latexmkcompile="grep -l '\\documentclass' *tex | xargs latexmk -pdf -pvc -silent"
-alias shomeshick='source ~/.homesick/repos/homeshick/homeshick.sh'
