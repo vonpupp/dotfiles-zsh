@@ -46,6 +46,9 @@ alias vf='fasd -fe vim'
 alias homeshickload='source ~/.homesick/repos/homeshick/homeshick.sh'
 alias xresourcesload="xrdb ~/.Xresources"
 
+# Node
+alias npm-exec='PATH=$(npm bin):$PATH'
+
 # Ping
 alias pt='ping google.com'
 
@@ -55,3 +58,4 @@ alias ff='find |grep'
 alias impersonatewm='wmname LG3D'
 alias t='task'
 alias latexmkcompile="grep -l '\\documentclass' *tex | xargs latexmk -pdf -pvc -silent"
+
