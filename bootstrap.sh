@@ -5,6 +5,15 @@ source $DIRNAME/.vars
 source ~/.homesick/repos/homeshick/homeshick.sh
 homeshick link $REPO_NAME
 
+# PIP
+source ~/.venv/bin2/bin/activate
+pip install \
+    trash \
+    envdir \
+    virtualenvwrapper \
+    #autoenv \
+    #
+
 # FZF
 git clone https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
