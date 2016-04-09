@@ -34,7 +34,9 @@ PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
 # Python
 # This might raise some issues using python2 and python3
 # Needs better testing on arch
-source /usr/share/autoenv-git/activate.sh
+# Autoenv
+#source /usr/share/autoenv-git/activate.sh
+source $HOME/.autoenv/activate.sh
 export VENV_BIN2=~/.venv/bin2/bin
 PATH="$VENV_BIN2:$PATH"
 PATH="$VENV_BIN3:$PATH"

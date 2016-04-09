@@ -3,6 +3,7 @@ export TERMINAL="urxvt"
 export USE_EDITOR=$EDITOR
 export VISUAL=$EDITOR
 export BROWSER="firefox"
+export DISABLE_AUTO_TITLE='true'
 #export TERM="screen-256color"
 #export TERM="xterm-256color"
 #export TERM="rxvt-256color"
