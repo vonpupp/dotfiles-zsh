@@ -14,6 +14,9 @@ pip install \
     #autoenv \
     #
 
+# Autoenv
+git clone https://github.com/kennethreitz/autoenv.git ~/.autoenv
+
 # FZF
 git clone https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
