@@ -36,7 +36,7 @@ PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
 # Needs better testing on arch
 # Autoenv
 #source /usr/share/autoenv-git/activate.sh
-source $HOME/.autoenv/activate.sh
+#source $HOME/.autoenv/activate.sh
 export VENV_BIN2=~/.venv/bin2/bin
 PATH="$VENV_BIN2:$PATH"
 PATH="$VENV_BIN3:$PATH"

@@ -70,5 +70,9 @@ source ~/.zsh/autorun.zsh
 #source $HOME/.zsh-fuzzy-match/fuzzy-match.zsh
 source ~/.fzf.zsh
 
+# Autoenv
+#source `which activate.sh`
+source ~/.autoenv/activate.sh
+
 # added by travis gem
 [ -f /home/av/.travis/travis.sh ] && source /home/av/.travis/travis.sh
