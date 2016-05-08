@@ -34,6 +34,10 @@ alias za='zathura'
 alias v='vim --servername vim'
 alias view='vim -R -'
 alias cpsshkey='xclip -sel clip < ~/.ssh/id_rsa.pub'
+alias ff='find |grep'
+alias t='task'
+alias impersonatewm='wmname LG3D'
+alias pt='ping google.com'
 
 # fasd aliases
 alias ee='fasd -ae e'
@@ -49,13 +53,5 @@ alias xresourcesload="xrdb ~/.Xresources"
 # Node
 alias npm-exec='PATH=$(npm bin):$PATH'
 
-# Ping
-alias pt='ping google.com'
-
-# Other aliases
-alias ff='find |grep'
-# alias c="clear"
-alias impersonatewm='wmname LG3D'
-alias t='task'
+# Latex
 alias latexmkcompile="grep -l '\\documentclass' *tex | xargs latexmk -pdf -pvc -silent"
-
