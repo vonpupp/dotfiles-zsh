@@ -118,4 +118,6 @@ bindkey '^R' fzf-history-widget
 #   FILE=$(fzf) && vim "$FILE"
 # }
 
-source ~/.fzf.zsh
+#source ~/.fzf.zsh
+source ~/.fzf/shell/completion.zsh
+source ~/.fzf/shell/key-bindings.zsh
