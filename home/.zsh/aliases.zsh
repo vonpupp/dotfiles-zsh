@@ -55,3 +55,6 @@ alias npm-exec='PATH=$(npm bin):$PATH'
 
 # Latex
 alias latexmkcompile="grep -l '\\documentclass' *tex | xargs latexmk -pdf -pvc -silent"
+
+# Django
+alias manage='python $VIRTUAL_ENV/../manage.py'
