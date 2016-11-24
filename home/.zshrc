@@ -68,7 +68,6 @@ source ~/.zsh/variables.zsh
 source ~/.zsh/autorun.zsh
 
 #source $HOME/.zsh-fuzzy-match/fuzzy-match.zsh
-source ~/.fzf.zsh
 
 # Autoenv
 #source `which activate.sh`
