@@ -37,10 +37,10 @@ PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
 # Autoenv
 #source /usr/share/autoenv-git/activate.sh
 #source $HOME/.autoenv/activate.sh
-export VENV_BIN2=~/.venv/bin2/bin
-PATH="$VENV_BIN2:$PATH"
-PATH="$VENV_BIN3:$PATH"
-export VENV_BIN3=~/.venv/bin3/bin
+#export VENV_BIN2=~/.venv/bin2/bin
+#PATH="$VENV_BIN2:$PATH"
+#PATH="$VENV_BIN3:$PATH"
+#export VENV_BIN3=~/.venv/bin3/bin
 export WORKON_HOME=$HOME/.virtualenvs
 #export WORKON_HOME=$HOME/.virtualenvs
 #VIRTUALENVWRAPPER_PYTHON=/home/afu/.venv/bin2/bin/python
