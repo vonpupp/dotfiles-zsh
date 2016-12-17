@@ -58,3 +58,6 @@ alias latexmkcompile="grep -l '\\documentclass' *tex | xargs latexmk -pdf -pvc -
 
 # Django
 alias manage='python $VIRTUAL_ENV/../manage.py'
+
+# GPG
+alias gpg-decrypt='gpg --passphrase-fd 0 --decrypt-files *.gpg'
