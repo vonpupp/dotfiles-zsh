@@ -9,3 +9,6 @@ alias pacro='paclo && sudo pacman -Rns $(pacman -Qtdq)' # remove orphans
 alias paclf='pacman -Ql'        # list files
 alias pacc='paccache -r'        # clean
 alias paclean='pacman -Scc'    	# clean cache
+
+alias yaourt='yaourt --noconfirm'    	# yaourt
+alias pacman='pacman --noconfirm'    	# pacman
