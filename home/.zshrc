@@ -49,6 +49,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # plugins=(git)
+plugins=(docker python pip django)
 #plugins=(vi-mode git suse history-substring-search svn virtualenvwrapper)
 #plugins=(vi-mode git suse history-substring-search svn)
 #plugins=(vi-mode git suse history-substring-search)
@@ -69,9 +70,11 @@ source ~/.zsh/autorun.zsh
 
 #source $HOME/.zsh-fuzzy-match/fuzzy-match.zsh
 
-# Autoenv
-#source `which activate.sh`
-source ~/.autoenv/activate.sh
+# autoenv
+[ -f $HOME/.autoenv/.activate.sh ] && source $HOME/.autoenv/activate.sh
 
-# added by travis gem
-[ -f /home/av/.travis/travis.sh ] && source /home/av/.travis/travis.sh
+# travis
+[ -f $HOME/.travis/travis.sh ] && source $HOME/.travis/travis.sh
+
+# asdf
+[ -f $HOME/.asdf/asdf.sh ] && source $HOME/.asdf/asdf.sh
