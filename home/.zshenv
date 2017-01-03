@@ -52,7 +52,7 @@ export WORKON_HOME=$HOME/.virtualenvs
 #VIRTUALENVWRAPPER_PYTHON=/home/afu/anaconda/bin/python
 
 # NODE
-PATH=$(npm bin):$PATH
+[ -f /usr/bin/npm ] && PATH=$(npm bin):$PATH
 
 # R
 export R_LIBS="$HOME/Rlibs"
