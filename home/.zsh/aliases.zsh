@@ -5,9 +5,12 @@ function top10 () {history | awk '{print $2}'|awk 'BEGIN {FS="|"} {print $1}' | 
 #unalias f
 function f() {find ./ -iname "*$1*" 2>/dev/null | grep -i $1}
 
+# F2 to sudo when I forgot
+bindkey -s '\e[12~' "sudo !!\n"
 
 # Aliases
 
+alias ..='cd ..'
 alias rm='trash'
 alias ll='ls -lah'
 alias l='ls -lh'
