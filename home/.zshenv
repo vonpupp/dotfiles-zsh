@@ -69,6 +69,9 @@ export XDG_CONFIG_HOME="$HOME/.config"
 # Load $PATH
 export PATH=$PATH
 
+# GPG
+export GPG_TTY=$(tty)
+
 # User aliases
 export PROJECTS=$HOME/projects
 export USP=~/Dropbox/mnt-usp/
