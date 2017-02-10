@@ -1,8 +1,8 @@
 export EDITOR="vim"
 export TERMINAL="urxvt"
-export USE_EDITOR=$EDITOR
-export VISUAL=$EDITOR
+export XEDITOR="gvim"
 export BROWSER="firefox"
+export FILEMANAGER="spacefm"
 export DISABLE_AUTO_TITLE='true'
 #export TERM="screen-256color"
 #export TERM="xterm-256color"
