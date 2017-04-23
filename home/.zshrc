@@ -78,3 +78,6 @@ source ~/.zsh/autorun.zsh
 
 # asdf
 [ -f $HOME/.asdf/asdf.sh ] && source $HOME/.asdf/asdf.sh
+
+# keychain
+[ -f $HOME/.zsh/keychain.sh ] && source $HOME/.zsh/keychain.sh
