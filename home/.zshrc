@@ -81,3 +81,6 @@ source ~/.zsh/autorun.zsh
 
 # keychain
 [ -f $HOME/.zsh/keychain.sh ] && source $HOME/.zsh/keychain.sh
+
+# azure
+[ -f $HOME/.zsh/azure.sh ] && source $HOME/.zsh/azure.sh
