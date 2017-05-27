@@ -61,7 +61,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zshenv
 source ~/.zsh/aliases.zsh
 source ~/.zsh/aliases-os.zsh
-source ~/.zsh/accessibility.zsh
+[ -f /usr/bin/fasd ] && source ~/.zsh/accessibility.zsh
 source ~/.zsh/colors.zsh
 source ~/.zsh/keybindings.zsh
 source ~/.zsh/options.zsh
