@@ -11,14 +11,14 @@ bindkey -s '\e[12~' "sudo !!\n"
 # Aliases
 
 alias ..='cd ..'
-alias rm='trash'
+[ -f /usr/bin/trash ] && alias rm='trash'
 alias ll='ls -lah'
 alias l='ls -lh'
 alias lltime='ll -tr'
 alias llsize='l --group-directories-first -S'
 alias lld='ls -lhd *(-/DN)'
 alias llh='ls -lhd .*'
-alias df='pydf'
+[ -f /usr/bin/pydf ] && alias df='pydf'
 alias du='du -hs'
 alias mkdirs='mkdir -p'
 alias n='nano'
