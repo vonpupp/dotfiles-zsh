@@ -70,6 +70,9 @@ source ~/.zsh/autorun.zsh
 
 #source $HOME/.zsh-fuzzy-match/fuzzy-match.zsh
 
+# pyenv
+[ -f $HOME/.zsh/pyenv.sh ] && source $HOME/.zsh/pyenv.sh
+
 # autoenv
 [ -f $HOME/.autoenv/.activate.sh ] && source $HOME/.autoenv/activate.sh
 
