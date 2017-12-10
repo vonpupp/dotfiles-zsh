@@ -38,7 +38,7 @@ alias v='vim --servername vim'
 alias view='vim -R -'
 alias cpsshkey='xclip -sel clip < ~/.ssh/id_rsa.pub'
 alias ff='find |grep'
-alias t='task'
+alias ta='task'
 alias impersonatewm='wmname LG3D'
 alias pt='ping google.com'
 
@@ -60,7 +60,7 @@ alias npm-exec='PATH=$(npm bin):$PATH'
 alias latexmkcompile="grep -l '\\documentclass' *tex | xargs latexmk -pdf -pvc -silent"
 
 # Django
-alias manage='python $VIRTUAL_ENV/../manage.py'
+#alias manage='python $VIRTUAL_ENV/../manage.py'
 
 # GPG
 alias gpg-decrypt='gpg --passphrase-fd 0 --decrypt-files *.gpg'
