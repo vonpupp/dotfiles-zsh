@@ -38,7 +38,8 @@ alias v='vim --servername vim'
 alias view='vim -R -'
 alias cpsshkey='xclip -sel clip < ~/.ssh/id_rsa.pub'
 alias ff='find |grep'
-alias ta='task'
+alias t='task'
+alias habit='task rc.data.config=~/.habitwarriorrc rc.data.location=~/.habitwarrior'
 alias impersonatewm='wmname LG3D'
 alias pt='ping google.com'
 
@@ -63,4 +64,5 @@ alias latexmkcompile="grep -l '\\documentclass' *tex | xargs latexmk -pdf -pvc -
 #alias manage='python $VIRTUAL_ENV/../manage.py'
 
 # GPG
+alias gpg=gpg2
 alias gpg-decrypt='gpg --passphrase-fd 0 --decrypt-files *.gpg'

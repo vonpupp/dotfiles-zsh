@@ -47,6 +47,9 @@ export WORKON_HOME=$HOME/.virtualenvs
 #VIRTUALENVWRAPPER_PYTHON=/home/afu/.venv/bin2/bin/python
 #VIRTUALENV_DIR=`which virtualenvwrapper.sh`
 #source $VIRTUALENV_DIR
+export COOKIECUTTER_CONFIG=$HOME/.cookiecutters/cookiecutter-conf.yaml
+PYTHONPATH=$HOME/repos/crypto/beancount_cryptocompare/beancount_cryptocompare
+#export PYTHONPATH
 
 # Anaconda
 #PATH="$HOME/anaconda/bin:$PATH"
