@@ -49,7 +49,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # plugins=(git)
-plugins=(docker python pip django)
+plugins=(archlinux docker python pip django)
 #plugins=(vi-mode git suse history-substring-search svn virtualenvwrapper)
 #plugins=(vi-mode git suse history-substring-search svn)
 #plugins=(vi-mode git suse history-substring-search)
