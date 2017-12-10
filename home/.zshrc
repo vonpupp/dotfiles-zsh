@@ -96,4 +96,3 @@ source ~/.zsh/autorun.zsh
 [ -f /usr/bin/stayinmalaga ] && autoload bashcompinit
 [ -f /usr/bin/stayinmalaga ] && bashcompinit
 [ -f /usr/bin/stayinmalaga ] && eval "$(_STAYINMALAGA_COMPLETE=source /usr/bin/stayinmalaga)"
->>>>>>> Stashed changes
