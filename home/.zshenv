@@ -35,7 +35,6 @@ PERL_MM_OPT="INSTALL_BASE=$HOME/perl5"; export PERL_MM_OPT;
 # This might raise some issues using python2 and python3
 # Needs better testing on arch
 # Autoenv
-PYTHONPATH=$PYTHONPATH:$HOME/repos/crypto/cryptobeans
 #source /usr/share/autoenv-git/activate.sh
 #source $HOME/.autoenv/activate.sh
 #export VENV_BIN2=~/.venv/bin2/bin
@@ -49,7 +48,7 @@ export WORKON_HOME=$HOME/.virtualenvs
 #source $VIRTUALENV_DIR
 export COOKIECUTTER_CONFIG=$HOME/.cookiecutters/cookiecutter-conf.yaml
 PYTHONPATH=$HOME/repos/crypto/beancount_cryptocompare/beancount_cryptocompare
-#export PYTHONPATH
+export PYTHONPATH
 
 # Anaconda
 #PATH="$HOME/anaconda/bin:$PATH"
