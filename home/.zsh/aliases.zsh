@@ -52,6 +52,7 @@ alias vf='fasd -fe vim'
 
 # Load/reload
 alias homeshickload='source ~/.homesick/repos/homeshick/homeshick.sh'
+alias homeshicklink='~/bin/homeshick-link-bb.sh'
 alias xresourcesload="xrdb ~/.Xresources"
 
 # Node
@@ -66,3 +67,4 @@ alias latexmkcompile="grep -l '\\documentclass' *tex | xargs latexmk -pdf -pvc -
 # GPG
 alias gpg=gpg2
 alias gpg-decrypt='gpg --passphrase-fd 0 --decrypt-files *.gpg'
+#alias otp='otp -c'
