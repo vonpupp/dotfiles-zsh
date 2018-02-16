@@ -63,6 +63,7 @@ PATH="$R_LIBS:$PATH"
 
 # Ruby
 PATH="$HOME/.rbenv/versions/2.3.0/bin:$PATH"
+PATH="$HOME/.gem/ruby/2.5.0/bin:$PATH"
 #export RUBY_HOME="`ruby -e 'print Gem.user_dir'`/bin"
 #PATH="$RUBY_HOME:$PATH"
 
